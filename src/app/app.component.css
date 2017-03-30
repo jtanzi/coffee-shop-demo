@@ -69,6 +69,17 @@ nav a.active {
   margin-bottom: 2px;
 }
 
+
+/* MENU */
+.menu-layout-block {
+  
+}
+
+.menu-image img {
+  width: 90%;
+  margin: 20% auto;
+}
+
 .menu-container {
   width: 40%;
   margin: 60px auto;

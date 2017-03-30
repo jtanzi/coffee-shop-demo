@@ -12,6 +12,7 @@ exports.COFFEES = [
 ];
 exports.MENU = [
     { name: 'Drip Coffee', type: 'hot beverage', sizes: ['s', 'm', 'l'], prices: ["1.50", "1.90", "2.10"] },
+    { name: 'Pour Over', type: 'hot beverage', sizes: ['s', 'm', 'l'], prices: ["1.90", "2.60", "2.90"] },
     { name: 'Latte', type: 'hot beverage', sizes: ['s', 'm', 'l'], prices: ["2.10", "2.60", "2.80"] },
     { name: 'Cappucino', type: 'hot beverage', sizes: ['s', 'm', 'l'], prices: ["2.10", "2.60", "2.80"] },
     { name: 'Macchiatto', type: 'hot beverage', sizes: ['s', 'm', 'l'], prices: ["2.10", "2.60", "2.80"] },

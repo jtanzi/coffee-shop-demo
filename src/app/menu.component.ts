@@ -6,36 +6,7 @@ import { MenuService } from './menu.service';
 
 @Component({
   selector: 'menu',
-  template: `
-    <div id="menu-container-1" class="menu-container">
-      <h2>Hot Beverages</h2>
-      <div *ngFor="let menuitem of menuHotBev" class="menu-listing" fxflex fxlayout="row" fxLayoutGap="30px" fxLayoutWrap="nowrap" fxLayoutAlign="start start">
-        <h3 fxFlex="40">{{ menuitem.name }}</h3>
-        <p fxFlex="20" *ngFor="let price of menuitem.prices" >{{ price }}</p>
-      </div>
-    </div>
-    <div id="menu-container-2" class="menu-container">
-      <h2>Cold Beverages</h2>
-      <div *ngFor="let menuitem of menuColdBev" class="menu-listing" fxflex fxlayout="row" fxLayoutGap="30px" fxLayoutWrap="nowrap" fxLayoutAlign="start start">
-        <h3 fxFlex="40">{{ menuitem.name }}</h3>
-        <p fxFlex="20" *ngFor="let price of menuitem.prices" >{{ price }}</p>
-      </div>
-    </div>
-    <div id="menu-container-3" class="menu-container">
-      <h2>Breakfast</h2>
-      <div *ngFor="let menuitem of menuBreakfast" class="menu-listing" fxflex fxlayout="row" fxLayoutGap="30px" fxLayoutWrap="nowrap" fxLayoutAlign="start start">
-        <h3 fxFlex="60">{{ menuitem.name }}</h3>
-        <p fxFlex="40" *ngFor="let price of menuitem.prices" >{{ price }}</p>
-      </div>
-    </div>
-    <div id="menu-container-4" class="menu-container">
-      <h2>Pastries</h2>
-      <div *ngFor="let menuitem of menuPastries" class="menu-listing" fxflex fxlayout="row" fxLayoutGap="30px" fxLayoutWrap="nowrap" fxLayoutAlign="start start">
-        <h3 fxFlex="60">{{ menuitem.name }}</h3>
-        <p fxFlex="40" *ngFor="let price of menuitem.prices" >{{ price }}</p>
-      </div>
-    </div>
-  `,
+  templateUrl: './menu.component.html',
   styleUrls: [ './app.component.css' ] 
 })
 export class MenuComponent implements OnInit {
