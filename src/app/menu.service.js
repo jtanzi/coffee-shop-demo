@@ -20,4 +20,4 @@ MenuService = __decorate([
     core_1.Injectable()
 ], MenuService);
 exports.MenuService = MenuService;
-//# sourceMappingURL=manu.service.js.map
+//# sourceMappingURL=menu.service.js.map

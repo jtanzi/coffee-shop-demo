@@ -2,6 +2,21 @@ body {
   margin: 0;
 }
 
+.loader {
+  margin: 20% auto;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #111111; 
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 #hero-image-wrapper {
   height: auto;
   min-height: 300px;
@@ -19,5 +34,5 @@ body {
   text-align: center;
   padding-top: 60px;
   margin: 0 auto;
-  color: #000;
+  color: #DDD;
 }

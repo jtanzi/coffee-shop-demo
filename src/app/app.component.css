@@ -10,6 +10,9 @@ h2 {
   margin-top: 0;
   padding-top: 0;
 }
+nav {
+  background-color: #000;
+}
 nav a {
   font-family: 'Marcellus SC', serif;
   padding: 5px 10px;
@@ -19,20 +22,33 @@ nav a {
   height: 40px;
   font-size: 20px;
   text-align: center;
+  color: #FFF;
 }
-nav a:visited, a:link {
+/*nav a:visited, a:link {
   color: #607D8B;
-}
+}*/
 nav a:hover {
-  color: #039be5;
-  background-color: #CFD8DC;
+  color: #DDD;
 }
 nav a.active {
-  color: #039be5;
+  color: #E1DECE;
+}
+
+#about-container {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  width: 50%;
+  margin: 40px auto;
+}
+
+#about-container h2 {
+  font-size: 24px; 
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
 }
 
 #coffee-list {
-  width: 70%;
+  width: 50%;
   margin: 30px auto;
 }
 
@@ -40,7 +56,7 @@ nav a.active {
   font-family: 'News Cycle', sans-serif;
   font-size: 18px;
   margin: 0 5px 40px 5px;
-  width: 175px;
+  width: 150px;
 }
 
 .coffee-list-item h2 {
@@ -51,4 +67,25 @@ nav a.active {
 .coffee-list-item p {
   line-height: 18px;
   margin-bottom: 2px;
+}
+
+.menu-container {
+  width: 40%;
+  margin: 60px auto;
+}
+
+.menu-container h2 {
+  font-size: 24px;
+}
+
+.menu-listing {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.menu-listing h3, .menu-listing p {
+  vertical-align: middle;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
