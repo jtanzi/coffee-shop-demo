@@ -6,8 +6,12 @@ import { MenuService } from './menu.service';
 
 @Component({
   selector: 'menu',
-  templateUrl: './menu.component.html',
-  styleUrls: [ './menu.component.css' ]
+  template: `
+    <div *ngFor="let menuitem of menu">
+      <h2>{{ menuitem.name }}</h2>
+    </div>
+  `,
+  styleUrls: [ './app.component.css' ]
 })
 export class MenuComponent implements OnInit {
   menu: MenuItem[];

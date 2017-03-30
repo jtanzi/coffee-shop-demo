@@ -1,5 +1,23 @@
-h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+body {
+  margin: 0;
+}
+
+#hero-image-wrapper {
+  height: auto;
+  min-height: 300px;
+  width: 100%;
+  margin: 0;
+  background-image: url("http://res.cloudinary.com/dokawurtl/image/upload/c_scale,e_grayscale,h_500/v1490803565/coffee_shop_demo/coffee-shop-hero-image_h0bvva.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero-image-wrapper h1 {
+  font-family: 'Marcellus SC', serif;
+  font-size: 128px;
+  text-align: center;
+  padding-top: 60px;
+  margin: 0 auto;
+  color: #000;
 }

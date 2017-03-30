@@ -32,8 +32,8 @@ var CoffeesComponent = (function () {
 CoffeesComponent = __decorate([
     core_1.Component({
         selector: 'coffees',
-        templateUrl: './coffees.component.html',
-        styleUrls: ['./coffees.component.css']
+        template: "\n    <div id=\"coffee-list\" fxflex fxlayout=\"row\" fxLayoutWrap=\"wrap\" fxLayout.sm=\"column\" fxLayout.xs=\"column\">\n      <div class=\"coffee-list-item\" *ngFor=\"let coffee of coffees\">\n        <h2>{{ coffee.blend }}</h2>\n        <p>Region: {{ coffee.region }}</p>\n        <p>Roast: {{ coffee.roast }}</p>\n        <p>{{ coffee.flavor }}</p>\n        <p>{{ coffee.price }} /lb</p>\n      </div>\n    </div>\n  ",
+        styleUrls: ['./app.component.css']
     }),
     __metadata("design:paramtypes", [router_1.Router,
         coffee_service_1.CoffeeService])

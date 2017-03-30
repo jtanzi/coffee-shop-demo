@@ -11,32 +11,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
-var menu_service_1 = require("./menu.service");
-var MenuComponent = (function () {
-    function MenuComponent(router, menuService) {
+var AboutComponent = (function () {
+    function AboutComponent(router) {
         this.router = router;
-        this.menuService = menuService;
     }
-    MenuComponent.prototype.getMenu = function () {
-        var _this = this;
-        this.menuService.getMenu().then(function (menu) { return _this.menu = menu; });
-    };
-    MenuComponent.prototype.ngOnInit = function () {
-        this.getMenu();
-    };
-    MenuComponent.prototype.onSelect = function (menuItem) {
-        this.selectedMenuItem = menuItem;
-    };
-    return MenuComponent;
+    return AboutComponent;
 }());
-MenuComponent = __decorate([
+AboutComponent = __decorate([
     core_1.Component({
-        selector: 'menu',
-        template: "\n    <div *ngFor=\"let menuitem of menu\">\n      <h2>{{ menuitem.name }}</h2>\n    </div>\n  ",
+        selector: 'about',
+        template: "\n    <div class=\"about-container\">\n      <h2>The Daytrippers Story</h2> \n    </div>\n  ",
         styleUrls: ['./app.component.css']
     }),
-    __metadata("design:paramtypes", [router_1.Router,
-        menu_service_1.MenuService])
-], MenuComponent);
-exports.MenuComponent = MenuComponent;
-//# sourceMappingURL=menu.component.js.map
+    __metadata("design:paramtypes", [router_1.Router])
+], AboutComponent);
+exports.AboutComponent = AboutComponent;
+//# sourceMappingURL=about.component.js.map
