@@ -71,18 +71,36 @@ nav a.active {
 
 
 /* MENU */
+
+#menu-header {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  margin: 30px 0 30px -20px;
+  text-align: center;
+  text-decoration: underline;
+  width: 100%;
+}
+
 .menu-layout-block {
-  
+  height: 500px;
+}
+
+.last-menu-layout-block {
+  margin-bottom: 120px;
+}
+
+.menu-image {
+  height: 380px;
+  margin: 5% auto;
 }
 
 .menu-image img {
-  width: 90%;
-  margin: 20% auto;
+  height: 100%;
 }
 
 .menu-container {
   width: 40%;
-  margin: 60px auto;
+  margin: 10px auto;
 }
 
 .menu-container h2 {
@@ -92,11 +110,13 @@ nav a.active {
 .menu-listing {
   font-family: 'News Cycle', sans-serif;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 20px;
 }
 
 .menu-listing h3, .menu-listing p {
-  vertical-align: middle;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  /*vertical-align: middle;*/
+}
+
+.menu-listing h3 {
+  /*margin-bottom: 16px;*/
 }

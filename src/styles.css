@@ -18,21 +18,44 @@ body {
 }
 
 #hero-image-wrapper {
-  height: auto;
-  min-height: 300px;
-  width: 100%;
-  margin: 0;
-  background-image: url("http://res.cloudinary.com/dokawurtl/image/upload/c_scale,e_grayscale,h_500/v1490803565/coffee_shop_demo/coffee-shop-hero-image_h0bvva.jpg");
   background-color: #cccccc;
+  background-image: url("http://res.cloudinary.com/dokawurtl/image/upload/c_scale,e_grayscale,h_500/v1490803565/coffee_shop_demo/coffee-shop-hero-image_h0bvva.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: auto;
+  margin: 0;
+  min-height: 300px;
+  width: 100%;
 }
 
 #hero-image-wrapper h1 {
+  color: #DDD;
   font-family: 'Marcellus SC', serif;
   font-size: 3.5rem;
-  text-align: center;
-  padding-top: 60px;
   margin: 0 auto;
-  color: #DDD;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#footer {
+  align-items: center; 
+  background-color: #000;
+  bottom: 0px;
+  color: #FFF;
+  display: flex;
+  height: 100px;
+  left: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+#footer-logo {
+  flex: 0 1 30%;
+  font-family: 'Marcellus SC', serif;
+  font-size: 36px;
+  padding-left: 10px;
+}
+
+#footer-social-icons {
+  flex: 0 1 70%;
 }

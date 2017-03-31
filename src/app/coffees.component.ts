@@ -7,14 +7,14 @@ import { CoffeeService } from './coffee.service';
 @Component({
   selector: 'coffees',
   template: `
-    <div id="coffee-list" fxflex fxlayout="row" fxLayoutWrap="wrap" fxLayout.sm="column" fxLayout.xs="column">
+    <div id="coffee-list" fxflex fxlayout="row" fxLayoutWrap="wrap" fxLayout.xs="column" fxLayoutAlign="center center">
       <div class="coffee-list-item" *ngFor="let coffee of coffees">
         <h2>{{ coffee.blend }}</h2>
         <p>Region: {{ coffee.region }}</p>
         <p>Roast: {{ coffee.roast }}</p>
         <p>{{ coffee.flavor }}</p>
         <p>{{ coffee.price }} /lb</p>
-      </div>
+      </div> 
     </div>
   `,
   styleUrls: [ './app.component.css' ]

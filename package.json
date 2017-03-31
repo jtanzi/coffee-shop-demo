@@ -60,5 +60,8 @@
     "@types/node": "^6.0.46",
     "@types/jasmine": "2.5.36"
   },
-  "repository": {https://github.com/jtanzi/coffee-shop-demo.git}
+  "repository": 
+    {"type": "git",
+      "url": "https://github.com/jtanzi/coffee-shop-demo.git"
+    }
 }
