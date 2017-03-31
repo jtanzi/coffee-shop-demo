@@ -37,6 +37,12 @@ body {
   text-align: center;
 }
 
+menu {
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
 #footer {
   align-items: center; 
   background-color: #000;
@@ -58,4 +64,20 @@ body {
 
 #footer-social-icons {
   flex: 0 1 70%;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 550px) {
+  
+  #hero-image-wrapper {
+    min-height: 200px;
+  }
+  
+  #footer {
+    height: 50px;
+  }
+  
+  #footer-logo {
+    font-size: 20px;
+  }
 }
