@@ -20,7 +20,7 @@ var AboutComponent = (function () {
 AboutComponent = __decorate([
     core_1.Component({
         selector: 'about',
-        template: "\n    <div id=\"about-container\">\n      <h2>Drink, Eat and Enjoy!</h2>\n      <div id=\"top-image-container\">\n      \n      </div>\n      <p>Aged dripper rich white ut, caf\u00E9 au lait strong robust kopi-luwak flavour acerbic. Coffee single origin seasonal spoon grounds medium beans.</p>\n      <p>Viennese, as, frappuccino chicory decaffeinated so cinnamon gal\u00E3o. Organic, qui seasonal sweet, mazagran caf\u00E9 au lait sit brewed chicory brewed irish.</p>\n      <p>Cappuccino, so, white, so cappuccino, grounds cinnamon kopi-luwak robusta java. Skinny grounds aroma ristretto id rich latte aftertaste cream seasonal.</p>\n      <p>Robusta aged, spoon redeye rich ristretto redeye. Cappuccino caramelization skinny sweet cup black mocha doppio grinder.</p>\n      <div id=\"bottom-image-container\">\n      \n      </div>\n    </div>\n  ",
+        templateUrl: './about.component.html',
         styleUrls: ['./app.component.css']
     }),
     __metadata("design:paramtypes", [router_1.Router])

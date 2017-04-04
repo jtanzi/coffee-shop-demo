@@ -1,0 +1,20 @@
+
+<div class="coffee-image-group" fxflex fxlayout="row" fxLayoutGap="5px" fxLayoutAlign="center stretch">
+  <img fxHide fxShow.gt-sm src="http://res.cloudinary.com/dokawurtl/image/upload/c_scale,w_200/v1491059350/coffee_shop_demo/coffee-tablet-headphones-work.jpg" alt="">
+  <img src="http://res.cloudinary.com/dokawurtl/image/upload/c_scale,w_200/v1491059350/coffee_shop_demo/coffee-bean1.jpg" alt="">
+  <img fxHide fxShow.gt-sm src="http://res.cloudinary.com/dokawurtl/image/upload/c_scale,w_200/v1491059350/coffee_shop_demo/compass-coffee.jpg" alt="">
+</div>
+<div id="coffee-list" fxflex fxlayout="row" fxLayoutWrap="wrap" fxLayout.xs="column" fxLayoutAlign="center center">
+  <div class="coffee-list-item" *ngFor="let coffee of coffees">
+    <h2>{{ coffee.blend }}</h2>
+    <p>Region: {{ coffee.region }}</p>
+    <p>Roast: {{ coffee.roast }}</p>
+    <p>{{ coffee.flavor }}</p>
+    <p>{{ coffee.price }} /lb</p>
+  </div> 
+</div>
+<div class="coffee-image-group last-coffee-div" fxflex fxlayout="row" fxLayoutGap="5px" fxLayoutAlign="center stretch">
+  <img fxHide fxShow.gt-sm src="http://res.cloudinary.com/dokawurtl/image/upload/c_scale,w_200/v1491059350/coffee_shop_demo/fedora-coffee.jpg" alt="">
+  <img src="http://res.cloudinary.com/dokawurtl/image/upload/c_scale,w_200/v1491059350/coffee_shop_demo/double-shot.jpg" alt="">
+  <img fxHide fxShow.gt-sm src="http://res.cloudinary.com/dokawurtl/image/upload/c_scale,w_200/v1491059350/coffee_shop_demo/outdoor-coffee.jpg" alt="">
+</div>

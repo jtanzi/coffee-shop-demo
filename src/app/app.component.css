@@ -35,16 +35,32 @@ nav a.active {
 }
 
 #about-container {
-  font-size: 16px;
+  font-size: 24px;
   font-family: 'Lato', sans-serif;
   width: 50%;
   margin: 40px auto;
+  min-height: 700px;
 }
 
 #about-container h2 {
   font-size: 24px; 
   font-family: 'Arimo', sans-serif;
   text-align: center;
+}
+
+.about-image-group {
+  margin: 50px 0;
+  height: auto;
+}
+
+/* Coffee */
+.coffee-image-group {
+  margin: 50px 0;
+  height: auto;
+}
+
+.coffee-image-group img {
+  width: auto;
 }
 
 #coffee-list {
@@ -74,6 +90,10 @@ nav a.active {
   margin-top: 6px;
 }
 
+.last-coffee-div {
+  margin-bottom: 100px;
+}
+
 
 /* MENU */
 
@@ -101,9 +121,10 @@ nav a.active {
 }
 
 .menu-image img {
-  height: 90%;
-  width: 70%;
+  height: 85%;
+  width: 85%;
   padding-left: 5%;
+  padding-top: 5%;
 }
 
 .menu-container {
@@ -132,7 +153,7 @@ nav a.active {
 
 .menu-thumbnail-image {
   height: 170px;
-  width: 40%;
+  width: 70%;
   margin: auto;
 }
 

@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .loader {
@@ -44,40 +45,72 @@ menu {
 }
 
 #footer {
-  align-items: center; 
   background-color: #000;
-  bottom: 0px;
   color: #FFF;
   display: flex;
-  height: 100px;
-  left: 0px;
-  position: fixed;
+  flex-wrap: wrap;
+  align-content: center;
   width: 100%;
 }
 
 #footer-logo {
-  flex: 0 1 30%;
+  flex: 0 1 50%;
   font-family: 'Marcellus SC', serif;
   font-size: 36px;
-  padding-left: 10px;
+}
+
+#footer-logo h3 {
+  margin-left: 10px;
 }
 
 #footer-social-icons {
-  flex: 0 1 70%;
+  font-size: 36px;
+  flex: 0 1 50%;
+  
+}
+
+#footer-social-icons a {
+  color: #FFF;
+  text-align: right;
+  margin-left: 20px;
+}
+
+#icons-wrapper {
+  width: 50%;
+  margin: 45px auto 0 auto;
 }
 
 /* Media Queries*/
 @media screen and (max-width: 550px) {
+  my-app { 
+    min-height: 400px;
+  }
   
   #hero-image-wrapper {
     min-height: 200px;
   }
   
   #footer {
-    height: 50px;
+    height: 140px;
   }
   
   #footer-logo {
     font-size: 20px;
+    text-align: center;
+    flex: 0 1 100%;
+    margin-top: 5px;
+  }
+  
+  #footer-social-icons {
+    font-size: 36px;
+    flex: 0 1 100%;
+    margin: 10px 0 10px 0;
+  }
+  
+  #icons-wrapper {
+    width: 100%;
+    font-size: 30px;
+    margin: 0 auto 5px auto;
+    text-align: center;
   }
 }
